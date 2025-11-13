@@ -357,11 +357,3 @@ print(stack_model.predict([X[0]]))
 - Bagging reduces variance, Boosting reduces bias, Stacking combines strengths of different models.  
 - Works well with weak learners (models slightly better than random).  
 
-## 7.7 Recap
-- **Ensemble** = multiple models combined.  
-- **Bagging** → parallel, reduces variance  
-- **Boosting** → sequential, reduces bias  
-- **Stacking** → meta-model combines predictions  
-
-Python’s `sklearn.ensemble` provides easy-to-use ensemble methods.
-
